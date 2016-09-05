@@ -25,13 +25,13 @@ Voting on a comment will affect:
 1. the spectral score of the comment, and
 2. the recipient user's spectral score
 
->The spectral scores of users and their comments cannot be seen by other users, as this may lead to cognitive biases before voting.*role
+*The spectral scores of users and their comments cannot be seen by other users, as this may lead to cognitive biases before voting.*
 
 The impact of a user's vote is mediated by how active they are on Side Chat.  New users will have less of an impact on voting.  This is to mitigate vote manipulation through users activating multiple accounts. 
 
 As comments are added to a discussion and are voted on, the spectral score of the discussion thread will be updated and displayed in real-time.  This score is an average of all of the underlying comment's spectral scores.  
 
->A discussion score near the Far-left would indicate an over-representation of comments leaning towards the left.  A discussion score near Centre would indicate that the comment representation is balanced from both political sides, or there is a large proportion of comments voted Centre.  
+*A discussion score near the Far-left would indicate an over-representation of comments leaning towards the left.  A discussion score near Centre would indicate that the comment representation is balanced from both political sides, or there is a large proportion of comments voted Centre.*
 
 
 
