@@ -14,19 +14,57 @@ If a social media user has come across a biased political thread (e.g. on Facebo
 
 The target audience for side.chat will be people, primarily young, who want a more balanced world view. Rather than deciding what their opinion is and boxing themselves in with like-minded people, side.chat's audience will want to speak with everyone, so as to gain a perspective before making political decisions.
 
-## Decision Making and Progression
+## Team
 
-Decisions will be made by group consensus, all team members will agree before proceeding.
+| Name | Student Number | Email | Skills | Role |
+--- | --- | --- | --- | --- |
+Alex Barnett | 42855219 | barnetas92@gmail.com | Computer Science,  HTML, CSS, MySQL, PHP, Laravel | Team Leader & Back-end
+Chris Lane | 43173068 | lanechr@hotmail.com | Bachelor of IT, HTML, CSS, JavaScript/JQuery, MySQL, PHP | Front-end
+Melissa Nguyen | 43209462	| melissa.nguyen@uq.net.au | Dual Bachelors IT/Arts, Graphic Design, Java, Python, JavaScript/JQuery, HTML, CSS, Agile Development | Design
+Luke Hartwig | 41779596 | luke.hartwig@uqconnect.edu.au | DipSci student, Python, HTML, CSS, JavaScript, Java | Content
 
-## Conflict Resolution
+### Logistics and Meetings
 
-Any concerns will be raised with the person concerned, letting them know what the issue is and some clear steps they can take to resolve the issue. If a person is unreachable for an unreasonable amount of time, Andrew Dekker and the tutors will be informed.
+* All members are partially responsible for logistics - public transport and cars are accessible to all members to handle equipment
+* All members of the team are expected to own, or at least have access to a laptop or computer throughout the development of the project
+* Laptops and notes are to be brought to meetings by all members
+* Meetings should be focused and should follow and agenda as outlined in the lead-up to the meeting; all members are responsible for ensuring that agenda items are addressed before discussing other matters
+* Each meeting, a member should be nominated to keep meeting minutes and notes to be posted, however all members are expected to keep their own notes as well
+* This team agrees that 10 minutes is an acceptable amount of time to be late to a meeting, unless discussed earlier
+* If a member is unable to attend or will be late to a meeting, they are expected to contact the team via Facebook or Slack as early as possible so that the team is aware and any adjustments to the meeting or agenda can be made
+* Acceptable reasons for missing a scheduled meeting include sickness and mental health, conflicting assessment, family commitments, work - other reasons can be discussed with fellow team members
+
+### Work Distribution and Responsibility
+
+Team members' roles are distributed based on previous experience and interests, however this does not mean that roles are mutually exclusive and siloed. Each member is expected to be somewhat active in all roles and assist and collaborate closely with their teammates. A goal of this project is work effectively and learn from colleagues with different skills and backgrounds.
+
+All members are expected to contribute equally to the project workload, and complete assigned tasks in a timely manner. Work should be of good quality, and any problems should be discussed with the team.
+
+### Decision Making and Progression
+
+Communications surrounding decisions and progression should be handled in a productive and mindful matter. Team members are expected to communicate their ideas effectively, with justifications and questions discussed with the group. When feedback is required, it is to be give in an objective, specific, actionable, constructive and useful manner. After group discussion, decisions will be made by group consensus, all team members will agree before proceeding.
+
+### Handling Poor Performance and Conflict Resolution
+
+Poor performance could be exemplified through *minor* and *major* non-compliance.
+
+*Minor* non-compliance is defined by actions of team members such as not replying in a prompt manner via the team's communication channels, providing short notice if unable to attend classes or meetings, completing work to a low standard when no calls for assistance or clarification were made. While these actions may no necessarily have major effects on the project, they made disrupt workflow and build frustrations within the team.
+
+*Major* non-compliance is defined by actions such as not attending classes or meetings and not communicating via the team's communication channels. It also includes not meeting checkpoints and deadlines, not completing allocated workloads, not providing input in team discussions and being rude or disrespectful to team members. All these actions have major impacts on the project and team and should be avoided.   
+
+Should there be any indication that members are committing any minor or major non-compliances, team members should address them sensitively and as soon as possible as to facilitate project work and team morale. In the case of minor breaches, issues should be clearly communicated with the person in question, with suggestions for steps they can take to resolve the issue. Should the minor breach become a persistent issue with no effort seen in resolving it, it will escalate to a major non-compliance.
+
+Major non-compliances are to also be handled first within the team by addressing the person concerned, with tutors notified. Should there be no changes, the issue will be escalated to tutors and other relevant teacher staff. The member will be peer reviewed poorly.
+
+Any conflicts within the team will be dealt with in a similar matter. In terms of conflicts in project decisions if a unanimous decision cannot be made, the team leader will make a call. All members are expected to be supportive and continue working to a high standard according to that decision.
 
 ## Communications
 
 Meetings will take place on Fridays from 10am-12pm during the workshop session. Outside of these hours, Slack and Facebook Messenger will be the primary means of communication. Files will be stored on Github and a shared folder on Google Drive.
 
-## Resources
+These platforms will be adopted as all members notified that they are familiar, have access to and can work effectively with them. All members are expected to share and be open with their work, and communicate any changes to these platforms.
+
+### Resources
 
 | Layer | Resource |
 --- | ---
@@ -35,9 +73,9 @@ Back End | PHP, MySQL, Laravel
 Hosting | Vultr Server
 
 
-## Naming Conventions
+### Naming Conventions
 
-Thanks to the use of use GitHub, complicated date/time naming conventions are unnecessary, however all files will be named consisely, and in a manner that immediately makes it clear what that file is responsible for.
+Thanks to the use of use GitHub, complicated date/time naming conventions are unnecessary, however all files will be named concisely, and in a manner that immediately makes it clear what that file is responsible for.
 
 * Database Tables must be **pluralized snake_case**
 * Database Columns must be **snake_case**
@@ -55,18 +93,8 @@ Thanks to the use of use GitHub, complicated date/time naming conventions are un
 | Design | Friday Week 9
 | Construction | Friday Week 12
 
-## Team
-
-| Name | Student Number | Role |
---- | --- | --- | ---
-Chris Lane | 43173068 | Front-end
-Alex Barnett | ######## | Back-end
-Melissa Nguyen | 43209462	| Design
-Luke Hartwig | 41779596 | Content
-
-
-
 ## Tags
+
 *Social/Mobile: Awareness, Coordination, Conversation, Synchronous/Asynchronous Distributed Interaction, Informal Communication*
 
 *News: Bias, Group Think*
