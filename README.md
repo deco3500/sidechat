@@ -72,4 +72,5 @@ Luke Hartwig | 41779596 | Content
 
 ## References
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quattrociocchi, W., Scala, A. & Sunstein, C.R. (2016). *Echo Chambers on Facebook*. Retrieved from http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2795110
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del Vicario, M., Bessi, A., Zollo, F., Petroni, F., Scala, A., Caldarelli, G., Stanley, H.E., Quattrociocchi, W. (2015). *The Spreading of Misinformation Online*. Retrieved from http://www.pnas.org/content/113/3/554.abstract
