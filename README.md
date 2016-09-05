@@ -36,17 +36,17 @@ Hosting | Vultr Server
 
 Thanks to the use of use GitHub, complicated date/time naming conventions are unnecessary, however all files will be named consisely, and in a manner that immediately makes it clear what that file is responsible for.
 
-* Database Tables must be **pluralized snake_case** 
-* Database Columns must be **snake_case** 
-* Class Constants must be declared in **StudlyCaps** 
-* Class Constants must be declared in **upper case snake_case** 
-* Function Names must be **camelCase** 
+* Database Tables must be **pluralized snake_case**
+* Database Columns must be **snake_case**
+* Class Constants must be declared in **StudlyCaps**
+* Class Constants must be declared in **upper case snake_case**
+* Function Names must be **camelCase**
 * Variable names must be **camelCase**
 
 ## Plan
 
 | Phase | Due Date
---- | --- 
+--- | ---
 | Research | Friday Week 6
 | Requirements | Friday Week 7
 | Design | Friday Week 9
@@ -58,7 +58,7 @@ Thanks to the use of use GitHub, complicated date/time naming conventions are un
 --- | --- | --- | ---
 Chris Lane | 43173068 | Front-end
 Alex Barnett | ######## | Back-end
-Melissa Nguyen | ########	| Design
+Melissa Nguyen | 43209462	| Design
 Luke Hartwig | 41779596 | Content
 
 
@@ -67,4 +67,3 @@ Luke Hartwig | 41779596 | Content
 *Social/Mobile: Awareness, Coordination, Conversation, Synchronous/Asynchronous Distributed Interaction, Informal Communication*
 
 *News: Bias, Group Think*
-
