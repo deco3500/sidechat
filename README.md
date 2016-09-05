@@ -1,4 +1,4 @@
-# sidechat
+# Side Chat
 
 ## Introduction
 
@@ -10,18 +10,21 @@ Take part in open, balanced dialogue.
 
 ## Concept
 
-###Overview
+### Overview
 If a social media user has come across a biased political thread (e.g. on Facebook or Reddit), they can set up a Side Chat thread for more open discussion. Rather than Upvotes and Downvotes, each comment in the thread can be voted on a political scale ranging from far-left to far-right. Each Side Chat thread has an overall 'score' to indicate how biased the discussion is. The more balanced and active the thread is, the higher the thread will appear on the main page of Side Chat (similar to reddit's front page). This feature encourages multiple viewpoints to be expressed, as biased discussions drop down the page and become less visible. Users can sign up with Facebook but due to the political nature of discussions have the option to remain anonymous.
 
 ### Voting System
+
 A user has the ability to vote on each comment in a thread.  A vote is based on a five point-likert scale:
-|Far-left|Centre-left|Centre|Centre-right|Far-right|
---- | --- | --- | --- | --- |
+
+| Far-left | Centre-left | Centre | Centre-Right | Far-Right |
+|----------|-------------|--------|--------------|-----------|
+
 Voting on a comment will affect:
 1. the spectral score of the comment, and
 2. the recipient user's spectral score
 
->The spectral scores of users and their comments cannot be seen by other users, as this may lead to cognitive biases before voting.*
+>The spectral scores of users and their comments cannot be seen by other users, as this may lead to cognitive biases before voting.*role
 
 The impact of a user's vote is mediated by how active they are on Side Chat.  New users will have less of an impact on voting.  This is to mitigate vote manipulation through users activating multiple accounts. 
 
@@ -29,7 +32,9 @@ As comments are added to a discussion and are voted on, the spectral score of th
 
 >A discussion score near the Far-left would indicate an over-representation of comments leaning towards the left.  A discussion score near Centre would indicate that the comment representation is balanced from both political sides, or there is a large proportion of comments voted Centre.  
 
-###Audience
+
+
+### Audience
 The target audience for Side Chat will be people, primarily young, who want a more balanced worldview. Rather than deciding what their opinion is and boxing themselves in with like-minded people, Side Chat audiences will want to speak with everyone, so as to gain a perspective before making political decisions.
 
 ### Considered Technologies
@@ -119,7 +124,7 @@ N.B. We will be cycling through design, construction and testing stages iterativ
 
 ### Resource Allocation
 | Phase | Role | Resource Ratio |
-| -- | -- | -- |
+| ----- | ---- | -------------- |
 | Research | Front-End/Back-End/Design/Content | 0/1/1/2 |
 | Requirements | Front-End/Back-End/Design/Content | 0/0/2/2 |
 | Design | Front-End/Back-End/Design/Content | 1/0/2/1 |
@@ -127,26 +132,40 @@ N.B. We will be cycling through design, construction and testing stages iterativ
 | Testing | Front-End/Back-End/Design/Content | 1/1/2/0 |
 
 ### Role Considerations
-| Phase | Role | Considerations |
-| --- | --- | --- |
-| Research | | |
-| | Back-End | What technologies and innovations in this field already exist? |
-| | Design | What does prior art look like? | 
-| | Content | Prior art - what do users currently view? What would they want and need? |
-| Requirements | | |
-| | Design | What are our target users like? What scenarios do they usually encounter? In what context would they need this product? What are our limitations? | 
-| | Content | What content would make our project stand out from prior projects? What has been missing in the past? |
-| Design | | |
-| | Front-End | Working closely with design to consider possible implementations in front-end |
-| | Design | Creating visual aids and prototypes develop and consolidate design; working closely with front-end to ensure smooth transition between design and implementation | 
-| | Content | Developing sitemap, navigation and content placement according to requirements and research - working closely with design |
-| Construction | | |
-| | Front-End | Using available technologies to develop front-end based on designs; consulting with design and content should technological challenges arise and design needs to be altered; developing smooth integration with backend |
-| | Back-End | Using available technologies to develop back-end based on required content; consulting with design and content should technological challenges arise and design needs to be altered; developing smooth integration with front-end |
-| Testing | | |
-| | Front-End | User tests developed to test functionality of front-end and back-end integration |
-| | Back-End | Unit testing developed to ensure smooth running of back-end and front-end integration | 
-| | Design | Testing user experience |
+#### Research
+| Role | Considerations |
+| --- | --- |
+| Back-End | What technologies and innovations in this field already exist? |
+| Design | What does prior art look like? | 
+| Content | Prior art - what do users currently view? What would they want and need? |
+
+#### Requirements
+| Role | Considerations |
+| --- | --- |
+| Design | What are our target users like? What scenarios do they usually encounter? In what context would they need this product? What are our limitations? | 
+| Content | What content would make our project stand out from prior projects? What has been missing in the past? |
+
+#### Design
+| Role | Considerations |
+| --- | --- |
+| Front-End | Working closely with design to consider possible implementations in front-end |
+| Design | Creating visual aids and prototypes develop and consolidate design; working closely with front-end to ensure smooth transition between design and implementation | 
+| Content | Developing sitemap, navigation and content placement according to requirements and research - working closely with design |
+
+#### Construction
+| Role | Considerations |
+| --- | --- |
+| Front-End | Using available technologies to develop front-end based on designs; consulting with design and content should technological challenges arise and design needs to be altered; developing smooth integration with backend |
+|Back-End | Using available technologies to develop back-end based on required content; consulting with design and content should technological challenges arise and design needs to be altered; developing smooth integration with front-end |
+
+#### Testing
+| Role | Considerations |
+| --- | --- |
+|Front-End | User tests developed to test functionality of front-end and back-end integration |
+| Back-End | Unit testing developed to ensure smooth running of back-end and front-end integration | 
+|Design | Testing user experience |
+
+
 
 ## Tags
 
@@ -163,4 +182,3 @@ N.B. We will be cycling through design, construction and testing stages iterativ
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wolfshead. (2015). *Deconstructing the Groupthink of the Reddit Echo Chamber*. Retrieved from http://www.wolfsheadonline.com/deconstructing-the-groupthink-of-the-reddit-echo-chamber/
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zuckerman, E. (2008). *Serendipity, Echo Chambers, and the Front Page*. Retrieved from http://www.niemanlab.org/pdfs/ethanzuckerman.pdf
-
