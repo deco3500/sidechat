@@ -9,6 +9,8 @@ Take part in open, balanced dialogue.
 
 If a social media user has come across a biased political thread (e.g. on Facebook or Reddit), they can set up a side.chat thread for more open discussion. Rather than Upvotes and Downvotes, each comment in the thread can be voted as Left-leaning, Right-leaning or Balanced by other users. Each side.chat thread has an overall 'score' to indicate how biased the discussion is. The more balanced and active the thread is, the higher the thread will apear on the main page of side.chat (similar to reddit's front page). This feature encourages multiple viewpoints to be expressed, as biased discussions drop down the page and become less visible. Users can sign up with Facebook but due to the political nature of discussions have the option to remain anonymous.
 
+The target audience for side.chat will be people, primarily young, who want a more balanced world view. Rather than deciding what their opinion is and boxing themselves in with like-minded people, side.chat's audience will want to speak with everyone, so as to gain a perspective before making political decisions.
+
 ## Decision Making and Progression
 
 Decisions will be made by group consensus, all team members will agree before proceeding.
