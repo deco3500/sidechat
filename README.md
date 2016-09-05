@@ -52,7 +52,7 @@ Hosting | Vultr Server
 
 | Name | Student Number | Role |
 --- | --- | --- | ---
-Chris Lane | ######## | Front-end
+Chris Lane | 43173068 | Front-end
 Alex Barnett | ######## | Back-end
 Melissa Nguyen | ########	| Design
 Luke Hartwig | 41779596 | Content
