@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Social media has been a great platform for users to share common interests, perspectives and narratives. An issue that has emerged, however, is the creation of 'echo-chambers', where like-minded individuals gather in homogenous online environments and lose consideration for other viewpoints [1, 2]. Within these communities, users achieve recognition from their peers by being awarded tallied points such as 'Likes' or 'Upvotes'. Usually, comments that do not reflect the popular opinion of the environment are neglected or downvoted, which effectively silences balanced discussion. Side Chat aims to provide a solution to this issue, by creating an environment where all voices can be heard.  
+Social media has been a great platform for users to share common interests, perspectives and narratives. An issue that has emerged, however, is the creation of 'echo-chambers'. Empirical research has previously found that on social media, users have a tendency to promote narratives that fall in line with their own opinions, leading to the formation of polarised groups. Within these groups confirmation bias facilitate further spread of content. Thus, like-minded individuals can gather in homogenous online environments and lose consideration for other viewpoints (Quattrociocchi, Scala & Sunstein, 2016).
+
+Within these communities, users achieve recognition from their peers by being awarded tallied points such as 'Likes' or 'Upvotes'. Usually, comments that do not reflect the popular opinion of the environment are neglected or downvoted, which effectively silences balanced discussion. Side Chat aims to provide a solution to this issue, by creating an environment where all voices can be heard.  
 Take part in open, balanced dialogue.
 
 ## Concept
@@ -67,3 +69,6 @@ Luke Hartwig | 41779596 | Content
 *Social/Mobile: Awareness, Coordination, Conversation, Synchronous/Asynchronous Distributed Interaction, Informal Communication*
 
 *News: Bias, Group Think*
+
+## References
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quattrociocchi, W., Scala, A. & Sunstein, C.R. (2016). *Echo Chambers on Facebook*. Retrieved from http://poseidon01.ssrn.com/delivery.php?ID=306070120093080031121086087118086095006031030087027036073098003024095016000117081026043019049012062042054089104105003085070013027080066016052014082126112001111006059022023113008125031087023003087089064115103000090068087018112126002093006111024017094&EXT=pdf
