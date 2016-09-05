@@ -27,7 +27,7 @@ Voting on a comment will affect:
 
 *The spectral scores of users and their comments cannot be seen by other users, as this may lead to cognitive biases before voting.*
 
-The impact of a user's vote is mediated by how active they are on Side Chat.  New users will have less of an impact on voting.  This is to mitigate vote manipulation through users activating multiple accounts. 
+The impact of a user's vote is mediated by how active they are on Side Chat.  New users will have less of an impact on voting.  This is to mitigate vote manipulation through users activating multiple accounts.
 
 As comments are added to a discussion and are voted on, the spectral score of the discussion thread will be updated and displayed in real-time.  This score is an average of all of the underlying comment's spectral scores.  
 
@@ -103,7 +103,7 @@ Thanks to the use of use GitHub, complicated date/time naming conventions are un
 * Database Tables must be **pluralized snake_case**
 * Database Columns must be **snake_case**
 * Class Constants must be declared in **StudlyCaps**
-* Class Constants must be declared in **upper case snake_case**
+* Class Constants must be declared in **upper case SNAKE_CASE**
 * Function Names must be **camelCase**
 * Variable names must be **camelCase**
 
@@ -112,13 +112,13 @@ Thanks to the use of use GitHub, complicated date/time naming conventions are un
 Throughout the project, the team will be following a design process with the following phases and specific deliverables at the end of each:
 
 | Phase | Milestones | Due Date |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Research | Prior art, available technologies, design inspirations, defining users | Friday Week 6 |
 | Requirements | User interviews, observations, creating personas, developing scenarios and storyboards, defining scope, limitations  | Friday Week 7 |
 | Design | UI/UX design, prototypes and user testing, wireframes, mockups, back-end planning, APIs, algorithm design, site map | Friday Week 9 |
 | Construction | Front-End/Back-End development, database building, algorithm implementation | Friday Week 12 |
 | Testing | User testing and feedback required from design stage onwards, low and high fidelity prototypes used (e.g. paper prototyping for design decisions, unit testing for code, full user experience testing using mock ups and evolutionary prototypes)| Week 8 - 13 |
-  
+
 Our project interim sprints will run from Week 7 - 8 (research, requirements and some design), Week 8 - 10 (design, construction and some testing) and Week 10 - 12 (construction, testing and iterative design modifications). At the end of each, we will be presenting and demonstrating any progress we have made. These will be the milestones are outlined in the table above.  
 
 N.B. We will be cycling through design, construction and testing stages iteratively from week 8 - 13
@@ -137,20 +137,20 @@ N.B. We will be cycling through design, construction and testing stages iterativ
 | Role | Considerations |
 | --- | --- |
 | Back-End | What technologies and innovations in this field already exist? |
-| Design | What does prior art look like? | 
+| Design | What does prior art look like? |
 | Content | Prior art - what do users currently view? What would they want and need? |
 
 #### Requirements
 | Role | Considerations |
 | --- | --- |
-| Design | What are our target users like? What scenarios do they usually encounter? In what context would they need this product? What are our limitations? | 
+| Design | What are our target users like? What scenarios do they usually encounter? In what context would they need this product? What are our limitations? |
 | Content | What content would make our project stand out from prior projects? What has been missing in the past? |
 
 #### Design
 | Role | Considerations |
 | --- | --- |
 | Front-End | Working closely with design to consider possible implementations in front-end |
-| Design | Creating visual aids and prototypes develop and consolidate design; working closely with front-end to ensure smooth transition between design and implementation | 
+| Design | Creating visual aids and prototypes develop and consolidate design; working closely with front-end to ensure smooth transition between design and implementation |
 | Content | Developing sitemap, navigation and content placement according to requirements and research - working closely with design |
 
 #### Construction
@@ -163,7 +163,7 @@ N.B. We will be cycling through design, construction and testing stages iterativ
 | Role | Considerations |
 | --- | --- |
 |Front-End | User tests developed to test functionality of front-end and back-end integration |
-| Back-End | Unit testing developed to ensure smooth running of back-end and front-end integration | 
+| Back-End | Unit testing developed to ensure smooth running of back-end and front-end integration |
 |Design | Testing user experience |
 
 
