@@ -1,2 +1,66 @@
 # sidechat
+
+## Introduction
+
+Social media has been a great platform for users to share common interests, perspectives and narratives. An issue that has emerged, however, is the creation of 'echo-chambers', where like-minded individuals gather in homogenous online environments and lose consideration for other viewpoints [1, 2]. Within these communities, users achieve recognition from their peers by being awarded tallied points such as 'Likes' or 'Upvotes'. Usually, comments that do not reflect the popular opinion of the environment are neglected or downvoted, which effectively silences balanced discussion. Side Chat aims to provide a solution to this issue, by creating an environment where all voices can be heard.  
 Take part in open, balanced dialogue.
+
+## Concept
+
+If a social media user has come across a biased political thread (e.g. on Facebook or Reddit), they can set up a side.chat thread for more open discussion. Rather than Upvotes and Downvotes, each comment in the thread can be voted as Left-leaning, Right-leaning or Balanced by other users. Each side.chat thread has an overall 'score' to indicate how biased the discussion is. The more balanced and active the thread is, the higher the thread will apear on the main page of side.chat (similar to reddit's front page). This feature encourages multiple viewpoints to be expressed, as biased discussions drop down the page and become less visible. Users can sign up with Facebook but due to the political nature of discussions have the option to remain anonymous.
+
+## Decision Making and Progression
+
+Decisions will be made by group consensus, all team members will agree before proceeding.
+
+## Conflict Resolution
+
+Any concerns will be raised with the person concerned, letting them know what the issue is and some clear steps they can take to resolve the issue. If a person is unreachable for an unreasonable amount of time, Andrew Dekker and the tutors will be informed.
+
+## Communications
+
+Meetings will take place on Fridays from 10am-12pm during the workshop session. Outside of these hours, Slack and Facebook Messenger will be the primary means of communication. Files will be stored on Github and a shared folder on Google Drive.
+
+## Resources
+
+| Layer | Resource |
+--- | ---
+Front End | HTML, CSS, JavaScript/JQuery
+Back End | PHP, MySQL, Laravel
+Hosting | Vultr Server
+
+
+## Naming Conventions
+
+* Database Tables must be **pluralized snake_case** 
+* Database Columns must be **snake_case** 
+* Class Constants must be declared in **StudlyCaps** 
+* Class Constants must be declared in **upper case snake_case** 
+* Function Names must be **camelCase** 
+* Variable names must be **camelCase**
+
+## Plan
+
+| Phase | Due Date
+--- | --- 
+| Research | Friday Week 6
+| Requirements | Friday Week 7
+| Design | Friday Week 9
+| Construction | Friday Week 12
+
+## Team
+
+| Name | Student Number | Role |
+--- | --- | --- | ---
+Chris Lane | ######## | Front-end
+Alex Barnett | ######## | Back-end
+Melissa Nguyen | ########	| Design
+Luke Hartwig | 41779596 | Content
+
+
+
+## Tags
+*Social/Mobile: Awareness, Coordination, Conversation, Synchronous/Asynchronous Distributed Interaction, Informal Communication*
+
+*News: Bias, Group Think*
+
