@@ -34,6 +34,8 @@ Hosting | Vultr Server
 
 ## Naming Conventions
 
+Thanks to the use of use GitHub, complicated date/time naming conventions are unnecessary, however all files will be named consisely, and in a manner that immediately makes it clear what that file is responsible for.
+
 * Database Tables must be **pluralized snake_case** 
 * Database Columns must be **snake_case** 
 * Class Constants must be declared in **StudlyCaps** 
