@@ -21,6 +21,7 @@ A user has the ability to vote on each comment in a thread.  A vote is based on 
 |----------|-------------|--------|--------------|-----------|
 
 Voting on a comment will affect:
+
 1. the spectral score of the comment, and
 2. the recipient user's spectral score
 
