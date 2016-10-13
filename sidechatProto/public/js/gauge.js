@@ -39,7 +39,7 @@ $(function () {
         }   else if (ratio > .27){
             swing.text("Very Right Leaning");
             metric.className += " bigswing";
-        } else if (ratio == 0){
+        } else if (ratio > -.0025 && ratio < .0025){
             swing.text("Completely Neutral");
             metric.className += " perfect";
         } else{
