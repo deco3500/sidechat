@@ -23,8 +23,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('/welcome', 'DiscussionController@index');
+
 Route::get('/top', 'HomeController@top');
 
 Route::get('/new', 'HomeController@new');
 
 Route::get('/controversial', 'HomeController@controversial');
+
+Route::get('/submit', function () {
+    return view('submit');
+});
