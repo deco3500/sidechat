@@ -60,7 +60,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         <li><a href="/top">TOP</a></li>
-                        <li><a href="/new">NEW</a></li>
+                        <li><a href="/new-discussions">NEW</a></li>
                         <li><a href="/controversial">CONTROVERSIAL</a></li>
                     </ul>
 

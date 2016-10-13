@@ -25,6 +25,6 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/top', 'HomeController@top');
 
-Route::get('/new', 'HomeController@new');
+Route::get('/new-discussions', 'HomeController@newDiscussions');
 
 Route::get('/controversial', 'HomeController@controversial');
