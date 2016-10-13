@@ -1,0 +1,92 @@
+h2 {
+    display: inline;
+}
+
+.mini-nav{
+    height: 20px !important;
+    padding: 0px;
+    width: 100%;
+    background: white;
+}
+
+.navbar{
+    background: #009688;
+}
+
+.navbar-header .navbar-brand{
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav li a{
+    color: white !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.discussion-row{
+    padding-bottom: 30px;
+}
+
+
+/*Guage Chart CSS*/
+
+
+.metric {
+    padding: 10%;
+}
+
+.metric svg {
+    max-width: 100%;
+}
+
+.metric path {
+    stroke-width: 75;
+    stroke: #ecf0f1;
+    fill: none;
+}
+
+.metric.perfect path {
+    stroke-width: 75;
+    stroke: #14d100;
+    fill: none;
+}
+
+.metric text {
+    font-family: "asap", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.metric.bigswing path.data-arc {
+    stroke: #DD2C00;
+}
+
+.metric.bigswing text {
+    fill: #DD2C00;
+}
+
+.metric.swing path.data-arc {
+    stroke: #FF6D00;
+}
+
+.metric.swing text {
+    fill: #FF6D00;
+}
+
+.metric.neutral path.data-arc {
+    stroke: #00BFA5;
+}
+
+.metric.neutral text {
+    fill: #00BFA5;
+}
+.metric.perfect path.data-arc {
+    stroke: #14d100;
+}
+
+.metric.perfect text {
+    fill: #14d100;
+}
