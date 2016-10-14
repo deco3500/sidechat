@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Discussion;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -24,8 +25,15 @@ class DiscussionController extends Controller
      */
     public function index()
     {
-        $discussions = DB::table('discussions')->paginate(15);
-        return view('welcome', compact('discussions'));
+        $discussions = Discussion::paginate(10);
+        return view('welcome')->with('discussions', $discussions);
     }
-    
+
+    public function submit(Request $request)
+    {
+        $discussion = new Discussion($request->all());
+        $request->user()->addDiscussion($discussion);
+        return redirect('/welcome');
+
+    }
 }

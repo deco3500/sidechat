@@ -8,8 +8,17 @@ class Discussion extends Model
 {
     public $incrementing = true;
 
+    protected $fillable = ['title', 'url', 'ratio'];
 
-    public function path(){
-        return '/records/' .$this->id;
+    public function hostDomain(){
+        return parse_url($this->url, PHP_URL_HOST);
     }
+    
+
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
+
+   
 }

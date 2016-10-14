@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-lg-10  col-sm-9">
-                    <h2><a href="#">{{$discussion->title}}</a></h2> &nbsp;&nbsp;&nbsp;&nbsp; (www.abc.net.au/news)
+                    <h2><a href="{{$discussion->url}}">{{$discussion->title}}</a></h2> &nbsp;&nbsp;&nbsp;&nbsp; ({{$discussion->hostDomain()}})
                     <br>
                     submitted 3 hours ago by <a href="#">randomUser</a>
                     <br>
@@ -22,7 +22,7 @@
                 </div>
             </div>
         @endforeach
-
+        <div class="text-center">{{ $discussions->links() }}</div>
         <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script>
 

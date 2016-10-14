@@ -34,3 +34,4 @@ Route::get('/controversial', 'HomeController@controversial');
 Route::get('/submit', function () {
     return view('submit');
 });
+Route::post('/submit', 'DiscussionController@submit');
