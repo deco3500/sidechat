@@ -40,7 +40,7 @@ $(function () {
             swing.text("Very Right Leaning");
             metric.className += " bigswing";
         } else if (ratio > -.0025 && ratio < .0025){
-            swing.text("Completely Neutral");
+            swing.text("Very Balanced");
             metric.className += " perfect";
         } else{
             metric.className += " neutral";
@@ -54,7 +54,7 @@ $(function () {
                 arc.attr({
                     class: 'data-arc'
                 });
-                perc.text(Math.round(2 * val * 100) + '%');
+                perc.text((100 - Math.round(2 * val * 100))/10 + "/10");
             }), Math.round(2000 * ratio), mina.easeinout);
         }
         else {
@@ -66,7 +66,7 @@ $(function () {
                 arc.attr({
                     class: 'data-arc'
                 });
-                perc.text(Math.round(2 * -val * 100) + '%');
+                perc.text((100 - Math.round(2 * -val * 100))/10 + "/10");
             }), Math.round(-2000 * ratio), mina.easeinout);
         }
     };
