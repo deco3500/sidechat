@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('top');
-});
+/*Route::get('/', function () {
+    return view('welcome');
+});*/
+
+Route::get('/', 'DiscussionController@index');
+
 
 Auth::routes();
 

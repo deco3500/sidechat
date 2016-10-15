@@ -25,7 +25,7 @@ class DiscussionController extends Controller
      */
     public function index()
     {
-        $discussions = Discussion::paginate(10);
+        $discussions = Discussion::paginate(5);
         return view('welcome')->with('discussions', $discussions);
     }
 
