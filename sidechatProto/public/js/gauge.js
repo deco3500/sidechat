@@ -27,22 +27,27 @@ $(function () {
         radius = 450;
         startx = 0;
         starty = 450;
-        if (ratio < -.09 && ratio >= -.27){
+        if (ratio < -.09 && ratio >= -.27) {
             swing.text("Left Leaning");
             metric.className += " swing";
-        } else if (ratio < -.27){
+        }
+        else if (ratio < -.27) {
             swing.text("Very Left Leaning");
             metric.className += " bigswing";
-        } else if (ratio > .09 && ratio <= .27){
+        }
+        else if (ratio > .09 && ratio <= .27) {
             swing.text("Right Leaning");
             metric.className += " swing";
-        }   else if (ratio > .27){
+        }
+        else if (ratio > .27) {
             swing.text("Very Right Leaning");
             metric.className += " bigswing";
-        } else if (ratio > -.0025 && ratio < .0025){
+        }
+        else if (ratio > -.0025 && ratio < .0025) {
             swing.text("Very Balanced");
             metric.className += " perfect";
-        } else{
+        }
+        else {
             metric.className += " neutral";
         }
         if (ratio >= 0) {
@@ -54,7 +59,7 @@ $(function () {
                 arc.attr({
                     class: 'data-arc'
                 });
-                perc.text((100 - Math.round(2 * val * 100))/10 + "/10");
+                perc.text((100 - Math.round(2 * val * 100)) / 10 + "/10");
             }), Math.round(2000 * ratio), mina.easeinout);
         }
         else {
@@ -66,7 +71,7 @@ $(function () {
                 arc.attr({
                     class: 'data-arc'
                 });
-                perc.text((100 - Math.round(2 * -val * 100))/10 + "/10");
+                perc.text((100 - Math.round(2 * -val * 100)) / 10 + "/10");
             }), Math.round(-2000 * ratio), mina.easeinout);
         }
     };
@@ -77,6 +82,12 @@ $(function () {
         perc = $(this).find('text.percentage');
         swing = $(this).find('text.swing');
         metric = this;
-        animate_arc(ratio, svg, perc, swing, metric);
+        if (ratio != "1") {
+            animate_arc(ratio, svg, perc, swing, metric);
+        } else {
+            metric.className += " neutral";
+            perc.text("New");
+            swing.text("")
+        }
     });
 });
