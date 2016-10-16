@@ -38,11 +38,18 @@ h2 {
 
 .metric {
     padding: 10%;
+
+}
+
+/*Centres gauge on small screen*/
+@media (max-width: 991px) {
+    .discussion-row .text-right { text-align:center }
 }
 
 .metric svg {
-    max-width: 100%;
+    max-width: 200px;
 }
+
 
 .metric path {
     stroke-width: 75;

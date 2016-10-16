@@ -36,5 +36,5 @@ Route::get('/controversial', 'DiscussionController@controversialIndex');
 
 Route::get('/submit', function () {
     return view('submit');
-});
+})->middleware('auth');;
 Route::post('/submit', 'DiscussionController@submit');
