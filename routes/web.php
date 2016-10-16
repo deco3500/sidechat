@@ -28,11 +28,11 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/welcome', 'DiscussionController@index');
 
-Route::get('/top', 'HomeController@top');
+Route::get('/top', 'DiscussionController@topIndex');
 
-Route::get('/new-discussions', 'HomeController@newDiscussions');
+Route::get('/new-discussions', 'DiscussionController@newIndex');
 
-Route::get('/controversial', 'HomeController@controversial');
+Route::get('/controversial', 'DiscussionController@controversialIndex');
 
 Route::get('/submit', function () {
     return view('submit');

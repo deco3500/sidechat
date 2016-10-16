@@ -28,6 +28,24 @@ class DiscussionController extends Controller
         $discussions = Discussion::paginate(5);
         return view('welcome')->with('discussions', $discussions);
     }
+    
+    public function newIndex()
+    {
+        $discussions = Discussion::orderBy('created_at','desc')->paginate(5);
+        return view('newDiscussions')->with('discussions', $discussions);
+    }
+    
+    public function topIndex()
+    {
+        $discussions = Discussion::where('ratio', '!=', 1)->orderByRaw('ABS(ratio) asc')->paginate(5);
+        return view('top')->with('discussions', $discussions);
+    }
+    
+    public function controversialIndex()
+    {
+        $discussions = Discussion::where('ratio', '!=', 1)->orderByRaw('ABS(ratio) desc')->paginate(5);
+        return view('controversial')->with('discussions', $discussions);
+    }
 
     public function submit(Request $request)
     {

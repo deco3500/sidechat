@@ -51,5 +51,7 @@ class Discussion extends Model
         return $responseTime;
     }
 
-   
+   public function scopeIdDescending($query){
+        return $query->orderBy('created_at','DESC');
+   }   
 }
