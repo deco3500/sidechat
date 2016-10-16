@@ -15,7 +15,7 @@ class DiscussionController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -31,6 +31,7 @@ class DiscussionController extends Controller
 
     public function submit(Request $request)
     {
+        $this->middleware('auth');
         $discussion = new Discussion($request->all());
         $request->user()->addDiscussion($discussion);
         return redirect('/welcome');
