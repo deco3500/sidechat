@@ -16,7 +16,7 @@
                 <div class="col-lg-10  col-sm-9">
                     <h2><a href="{{$discussion->url}}">{{$discussion->title}}</a></h2> &nbsp;&nbsp;&nbsp;&nbsp; ({{$discussion->hostDomain()}})
                     <br>
-                    submitted 3 hours ago by <a href="#">{{$discussion->poster()}}</a>
+                    submitted {{$discussion->timeSincePost()}} ago by <a href="#">{{$discussion->poster()}}</a>
                     <br>
                     <b>944 comments      share</b>
                 </div>
