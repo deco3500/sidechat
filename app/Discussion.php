@@ -19,6 +19,14 @@ class Discussion extends Model
     {
         return $this->belongsTo('App\User');
     }
+    
+    
+    //User who posted the discussion
+    public function poster(){
+        $owner = User::where('id', '=', $this->user_id)->first();
+        
+        return $owner->name;
+    }
 
    
 }
