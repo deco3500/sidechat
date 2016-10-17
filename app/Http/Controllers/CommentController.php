@@ -55,10 +55,11 @@ class CommentController extends Controller
             $comment->score = (($oldscore * $old_no_ratings) + $request->balance) / ($old_no_ratings + 1);
             $comment->no_ratings = $old_no_ratings + 1;
             $comment->save();
+            $discussion = Discussion::where('id', '=', $request->discussion_id)->first();
+            $discussion->ratio = $discussion->getRatio();
+            $discussion->save();
         }
         return redirect(url('comments/'.$request->discussion_id.'/'));
 
     }
 }
-
-
