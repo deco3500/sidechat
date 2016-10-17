@@ -42,6 +42,14 @@ Route::post('/submit', 'DiscussionController@submit')->middleware('auth');
 
 Route::get('/comments/{id}', 'CommentController@index');
 
+Route::get('/submitcomment', function () {
+    return view('/home');
+})->middleware('auth');
+
 Route::post('/submitcomment', 'CommentController@submit')->middleware('auth');
+
+Route::get('/submitvote', function () {
+    return view('/home');
+})->middleware('auth');
 
 Route::post('/submitvote', 'CommentController@submitVote')->middleware('auth');
