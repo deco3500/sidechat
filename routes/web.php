@@ -38,10 +38,10 @@ Route::get('/submit', function () {
     return view('submit');
 })->middleware('auth');
 
-Route::post('/submit', 'DiscussionController@submit');
+Route::post('/submit', 'DiscussionController@submit')->middleware('auth');
 
 Route::get('/comments/{id}', 'CommentController@index');
 
-Route::post('/submitcomment', 'CommentController@submit');
+Route::post('/submitcomment', 'CommentController@submit')->middleware('auth');
 
-Route::post('/submitvote', 'CommentController@submitVote');
+Route::post('/submitvote', 'CommentController@submitVote')->middleware('auth');
