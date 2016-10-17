@@ -67,7 +67,7 @@ public function getRatio(){
     if ($count == 0 || $sum_ratings < 5){
         $ratio = 1;
     }else {
-        $ratio = $sum_score/$count;
+        $ratio = ($sum_score)/(4 * $count);
     }
     return $ratio;
     }

@@ -52,7 +52,7 @@ class CommentController extends Controller
             $comment->no_ratings = 1;
             $comment->save();
         } else {
-            $comment->score = (($oldscore / $old_no_ratings) + $request->balance) / ($old_no_ratings + 1);
+            $comment->score = (($oldscore * $old_no_ratings) + $request->balance) / ($old_no_ratings + 1);
             $comment->no_ratings = $old_no_ratings + 1;
             $comment->save();
         }
