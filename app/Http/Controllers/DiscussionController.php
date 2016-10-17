@@ -55,4 +55,5 @@ class DiscussionController extends Controller
         return redirect('/welcome');
 
     }
+
 }

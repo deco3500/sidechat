@@ -16,7 +16,7 @@
     <div class="col-lg-10  col-sm-9">
         <h2><a href="{{$discussion->url}}">{{$discussion->title}}</a></h2> &nbsp;&nbsp;&nbsp;&nbsp; ({{$discussion->hostDomain()}})
         <br> submitted {{$discussion->timeSincePost()}} ago by <a href="#">{{$discussion->poster()}}</a>
-        <br> <b><a href="{{ url('comments/'.$discussion->id.'/') }}">{{$discussion->no_comments}} comments</a>       share</b> <a href="#" onclick="replyFieldShowDiscussion()">Post a Comment</a> </div>
+        <br> <b><a href="{{ url('comments/'.$discussion->id.'/') }}">{{$discussion->commentCount()}} comments</a>       share</b> <a href="#" onclick="replyFieldShowDiscussion()">Post a Comment</a> </div>
         <form class="col-lg-10  col-sm-9" style="width:50%;" method="POST" action="/submitcomment">
                 {{csrf_field()}}
                 <div class="form-group">

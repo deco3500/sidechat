@@ -54,4 +54,9 @@ class Discussion extends Model
    public function scopeIdDescending($query){
         return $query->orderBy('created_at','DESC');
    }   
+    
+    public function commentCount(){
+        $count = Comment::where('discussion_id', '=', $this->id)->count();
+    return $count;
+    }
 }
