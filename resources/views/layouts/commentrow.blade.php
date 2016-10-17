@@ -22,6 +22,6 @@
     </div> 
     @foreach($comments as $commentreply)
     @if ((($commentreply->level) == $comment->level + 1) && (($commentreply->parent_id) == ($comment->id)))
-        @include('layouts.commentrow', ['comment' => $commentreply])
+    @include('layouts.commentrow', ['comment' => $commentreply])
     @endif
     @endforeach
