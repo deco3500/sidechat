@@ -37,4 +37,14 @@ class User extends Authenticatable
     {
         return $this->discussions()->save($discussion);
     }
+    
+    public function comments()
+    {
+        return $this->hasMany('App\Comment');
+    }
+    
+    public function addComment(Comment $comment)
+    {
+        return $this->comments()->save($comment);
+    }
 }

@@ -103,6 +103,12 @@
     <!-- Scripts -->
     <script src="/js/app.js"></script>
     <script src="/js/gauge.js"></script>
+    <script src="/js/leftrightslider.js"></script>
+    <script src="/js/comments.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css" type="text/css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </body>
 </html>

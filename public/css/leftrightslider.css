@@ -1,0 +1,15 @@
+.ui-slider-horizontal .ui-state-default {
+    background: #17b494;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 50%;
+    display: inline-block
+}
+
+.balance {
+    display: inline-block;
+}

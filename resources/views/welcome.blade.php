@@ -18,7 +18,7 @@
                     <br>
                     submitted {{$discussion->timeSincePost()}} ago by <a href="#">{{$discussion->poster()}}</a>
                     <br>
-                    <b>944 comments      share</b>
+                    <b><a href="{{ url('comments/'.$discussion->id.'/') }}">{{$discussion->no_comments}} comments</a>       share</b>
                 </div>
             </div>
         @endforeach
