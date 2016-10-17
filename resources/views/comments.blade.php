@@ -29,7 +29,9 @@
                 </div>
             </form>
 </div>
-<div class="container-fluid"> @foreach($comments as $comment)
+<div class="container-fluid"> 
+    @foreach($comments as $comment)
+    @if (($comment->level) == 0)
     <div class="row">
         <div class="col-lg-10  col-sm-9" data-score="{{$comment->score}}">
             <h5><p><b>{{$comment->poster()}}</b> submitted {{$comment->timeSincePost()}} ago</p></h5>
@@ -51,7 +53,14 @@
     </div>
     <div class="slidercontainer"> <span class="slider" style="position:relative; width:50%; display:inline-block;"></span>
         <div class="balance" style="border:0; color:#17b494; font-weight:bold; display:inline-block;">Balanced</div>
-    </div> @endforeach </div>
+    </div> 
+    @foreach($comments as $commentreply)
+    @if ((($commentreply->level) == $comment->level + 1) && (($commentreply->parent_id) == ($comment->id)))
+        @include('layouts.commentrow', ['comment' => $commentreply])
+    @endif
+    @endforeach
+    @endif
+    @endforeach </div>
 <div class="text-center">{{ $comments->links() }}</div>
 <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script> @endsection

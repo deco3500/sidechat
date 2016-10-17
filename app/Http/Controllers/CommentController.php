@@ -39,4 +39,7 @@ class CommentController extends Controller
         return redirect(url('comments/'.$request->discussion_id.'/'));
 
     }
+    
 }
+
+
