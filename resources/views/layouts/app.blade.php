@@ -62,6 +62,7 @@
                         <li><a href="/top">TOP</a></li>
                         <li><a href="/new-discussions">NEW</a></li>
                         <li><a href="/controversial">CONTROVERSIAL</a></li>
+                        <li><a href="/submit">CREATE</a></li>
                     </ul>
 
 
