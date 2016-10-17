@@ -10,6 +10,7 @@ $(function() {
                 max: sliderAmountMap.length-3, //the max length, slider will snap until this point in equal width increments
                 slide: function( event, ui ) {
                 $(this).parent().find(".balance").html(sliderAmountMap[ui.value+2] ); //map selected "value" with lookup array
+                $(this).parent().find(".hiddenbalance").val(ui.value);   
                 if (ui.value == -2 || ui.value == 2){    
                     $(this).parent().find( ".balance" ).css({'color' : '#D31604'});
                     $(this).find( "span" ).css({'background' : '#D31604'});

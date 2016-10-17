@@ -59,4 +59,16 @@ class Discussion extends Model
         $count = Comment::where('discussion_id', '=', $this->id)->count();
     return $count;
     }
+    
+public function getRatio(){
+    $count = Comment::where('discussion_id', '=', $this->id)->count();
+    $sum_score = Comment::where('discussion_id', '=', $this->id)->sum('score');
+    $sum_ratings = Comment::where('discussion_id', '=', $this->id)->sum('no_ratings');
+    if ($count == 0 || $sum_ratings < 5){
+        $ratio = 1;
+    }else {
+        $ratio = $sum_score/$count;
+    }
+    return $ratio;
+    }
 }

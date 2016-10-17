@@ -17,8 +17,15 @@
             </form>
         </div>
     </div>
-    <div class="slidercontainer" style="position:relative; left:{{($comment->level) * 3}}0px; "> <span class="slider" style="position:relative; width:50%; display:inline-block;"></span>
+    <form method="POST" action="/submitvote">
+        {{csrf_field()}}
+        <div class="slidercontainer" style="position:relative; left:{{($comment->level) * 3}}0px; "> <span class="slider" style="position:relative; width:50%; display:inline-block;"></span>
         <div class="balance" style="border:0; color:#17b494; font-weight:bold; display:inline-block;">Balanced</div>
+        <input class="hiddenbalance" type="hidden" name="balance" value=0>
+        <input type="hidden" name="comment_id" value="{{$comment->id}}">
+            <input type="hidden" name="discussion_id" value="{{$comment->discussion_id}}">
+        <button type="submit" class="btn btn-primary" style="display:inline-block;">Confirm Vote</button>
+    </form>
     </div> 
     @foreach($comments as $commentreply)
     @if ((($commentreply->level) == $comment->level + 1) && (($commentreply->parent_id) == ($comment->id)))

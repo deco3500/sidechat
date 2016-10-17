@@ -40,6 +40,25 @@ class CommentController extends Controller
 
     }
     
+    public function submitVote(Request $request)
+    {
+        $this->middleware('auth');
+        
+        $comment = Comment::where('id', '=', $request->comment_id)->first();
+        $oldscore = $comment->score;
+        $old_no_ratings = $comment->no_ratings;
+        if ($old_no_ratings == 0){
+            $comment->score = $request->balance;
+            $comment->no_ratings = 1;
+            $comment->save();
+        } else {
+            $comment->score = (($oldscore / $old_no_ratings) + $request->balance) / ($old_no_ratings + 1);
+            $comment->no_ratings = $old_no_ratings + 1;
+            $comment->save();
+        }
+        return redirect(url('comments/'.$request->discussion_id.'/'));
+
+    }
 }
 
 
