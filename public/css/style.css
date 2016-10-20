@@ -2,6 +2,45 @@ h2 {
     display: inline;
 }
 
+.wrap{
+    visibility: hidden;
+}
+.bar {
+    background: #42A5F5;
+    width: 0;
+    height: 30px;
+    top: 0;
+    position: relative;
+    clear: both;
+    margin-bottom: 5px;
+ }
+
+
+.bar:nth-of-type(2n) {
+    background: #64B5F6;
+}
+
+.bar span{
+    color: #004D40;
+
+}
+
+.verticalLine {
+    text-align: center;
+    width: 1px;
+    height: 25px;
+    display: inline-block;
+    color: #9E9E9E;
+    border-left: 1px solid #9E9E9E;
+
+    position: relative;
+    top: 10px;
+}
+
+.verticalLine:nth-of-type(5n) {
+    border-right: 1px solid #9E9E9E;
+}
+
 .mini-nav{
     height: 20px !important;
     padding: 0px;
