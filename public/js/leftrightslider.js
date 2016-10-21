@@ -23,6 +23,7 @@ $(function() {
                 }
             }
         });
+        $(this).find( "span" ).css({'background' : '#17b494'});
     });
     $(".slider").css({'position' : 'relative'}, {'width' : '50%'}, {'display' : 'inline-block'});
 });
