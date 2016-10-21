@@ -30,11 +30,9 @@
             </form>
 </div>
 <div class="container-fluid"> 
-    @foreach($comments as $comment)
-    @if (($comment->level) == 0)
-    @include('layouts.commentrow', ['comment' => $comment])
-    @endif
+    @foreach($rootcomments as $rootcomment)
+    @include('layouts.commentrow', ['comment' => $rootcomment])
     @endforeach </div>
-<div class="text-center">{{ $comments->links() }}</div>
+<div class="text-center">{{ $rootcomments->links() }}</div>
 <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script> @endsection

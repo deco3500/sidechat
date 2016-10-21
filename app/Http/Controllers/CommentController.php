@@ -26,9 +26,10 @@ class CommentController extends Controller
      */
     public function index($id)
     {
-        $comments = Comment::where('discussion_id', '=', $id)->paginate(10);
+        $rootcomments = Comment::where('discussion_id', '=', $id)->whereNull('parent_id')->orderByRaw('ABS(score) asc')->orderByRaw('ABS(no_ratings) desc')->orderBy('created_at', 'DESC')->paginate(10);
+        $comments = Comment::where('discussion_id', '=', $id)->orderBy('created_at', 'DESC')->get();
         $discussion = Discussion::where('id', '=', $id)->first();
-        return view('comments')->with('comments', $comments)->with('discussion', $discussion);
+        return view('comments')->with('comments', $comments)->with('discussion', $discussion)->with('rootcomments', $rootcomments);
     }
     
        public function submit(Request $request)
