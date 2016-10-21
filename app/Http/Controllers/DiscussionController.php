@@ -25,7 +25,7 @@ class DiscussionController extends Controller
      */
     public function index()
     {
-        $discussions = Discussion::paginate(5);
+        $discussions = Discussion::where('ratio', '!=', 1)->orderByRaw('ABS(ratio) asc')->paginate(5);
         return view('welcome')->with('discussions', $discussions);
     }
     
