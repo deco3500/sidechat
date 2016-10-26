@@ -5,7 +5,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <div class="row discussion-row">
     <div class="col-lg-2 col-sm-3 text-right">
-        <div class="metric" data-ratio="{{$discussion->ratio}}">
+        <div class="metric" data-ratio="{{$discussion->getRatio()}}">
             <svg viewBox="0 0 1000 500">
                 <path d="M 950 500 A 450 450 0 0 0 50 500"></path>
                 <text class='percentage' text-anchor="middle" alignment-baseline="middle" x="500" y="300" font-size="140" font-weight="bold">10/10</text>
