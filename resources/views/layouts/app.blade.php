@@ -28,8 +28,11 @@
             <div class="container">
                 <div class="row">
                     <div class="text-center">
-                        SOCIAL - POWER - ECONOMY - ENVIRONMENT - WAR
-
+                        <a href="{{ url('/') }}">SOCIAL</a> -
+                        <a href="{{ url('/') }}">POWER</a> -
+                        <a href="{{ url('/') }}">ECONOMY</a> -
+                        <a href="{{ url('/') }}">ENVIRONMENT</a> -
+                        <a href="{{ url('/') }}">WAR</a>
                     </div>
                 </div>
             </div>
