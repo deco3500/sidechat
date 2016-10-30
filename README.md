@@ -1,9 +1,12 @@
 # Side Chat
 
-## Prototype Documentation and Design process
+## Prototype Submission
 
-The Documentation and Design Process report is named **SideChatDocumentationAndDesignProcess.pdf** and can be found in this repository at:
-https://github.com/deco3500/sidechat/blob/master/SideChatDocumentationAndDesignProcess.pdf
+Document and Design report: https://github.com/deco3500/sidechat/raw/master/SideChatDocumentationAndDesignProcess.pdf
+
+Prototype: www.side.chat
+
+Promotional Website: www.tallredman.xyz/sidechatLanding
 
 ## Introduction
 
