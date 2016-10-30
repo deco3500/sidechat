@@ -1,5 +1,10 @@
 # Side Chat
 
+## Prototype Documentation and Design process
+
+The Documentation and Design Process report is named **SideChatDocumentationAndDesignProcess.pdf** and can be found in this repository at:
+https://github.com/deco3500/sidechat/blob/master/SideChatDocumentationAndDesignProcess.pdf
+
 ## Introduction
 
 Social media has been a great platform for users to share common interests, perspectives and narratives. An issue that has emerged, however, is the creation of 'echo-chambers'. Empirical research has previously found that on social media, users have a tendency to promote narratives that fall in line with their own opinions, leading to the formation of polarised groups. Within these groups confirmation bias facilitates further spread of content. Thus, like-minded individuals can gather in homogenous online environments and lose consideration for other viewpoints (Quattrociocchi, Scala & Sunstein, 2016). In the context of the current wealth of online content and its continual exponential growth, one way in which these 'echo-chambers' are undesirable is through the spreading of misinformation. Social media is a breeding ground for the massive diffusion of unverified and unsubstantiated rumours. When these rumours enter an echo-chamber, they propagate rapidly and can lead to wide-spread, ignorant, uncorroborated and sometimes dangerous narratives (Del Vicario, Bessi, Zollo, Petroni, Scala, Caldarelli, Stanley & Quattrociocchi, 2015).
